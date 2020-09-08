@@ -18,6 +18,16 @@ image from https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-
 
 Video was recorded of 8 different poses, the video ran for 20 seconds on each pose and data was take over the course of that time.  The data was saved out and then used in the ml5 neural network for classification
 
+The code was run in the local browser using by putting this in the terminal when in the poses folder
+
+python -m http.server
+
+then opening the browser to the following address
+
+http://localhost:8000/
+
+This sets up a local browser with the pose classification so that it can be run locally on a computer
+
 The 8 poses that the model is based on
 
 ![Seiza](/images/seiza_mea.jpg)
