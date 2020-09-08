@@ -48,6 +48,8 @@ The 8 poses that the model is based on
 
 I included a jupyter notebook with some of my thought and a bit of exploration of the poseNet data that was used in the model for classification.
 
+The included video files show a student at my dojo trying the classifier on the kata to see how it performs with someone of a different body shape.
+
 # Conclusion
 
 Much of the work was done in a program call p5 and used javascript.  The model used was the ml5 neural network. documentation for it can be found here https://learn.ml5js.org/docs/#/reference/neural-network.  The training data was taken from my demonstration of the iaido kata and was used to classify the poses that could then be run by a student. The model was set to create 8 classified poses based on important points in the kata.  I had to use a series of different models to try and get a good working model.
