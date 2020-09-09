@@ -16,6 +16,8 @@ The pose classification will use the poseNet model to pinpoint specific location
 
 image from https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5
 
+The poses folder is the main folder for the final product. The data collection is used to record the data and the data load folder has the code to put the collected data into model to train and get an output that is loaded into the poses folder.
+
 Video was recorded of 8 different poses, the video ran for 20 seconds on each pose and data was take over the course of that time.  The data was saved out and then used in the ml5 neural network for classification
 
 The code was run in the local browser by putting this in the terminal when in the poses folder
@@ -26,7 +28,7 @@ then opening the browser to the following address
 
 http://localhost:8000/
 
-This sets up a local browser with the pose classification so that it can be run locally on a computer
+This sets up a local browser with the pose classification so that it can be run locally on a computer using a webcam.
 
 The 8 poses that the model is based on
 
